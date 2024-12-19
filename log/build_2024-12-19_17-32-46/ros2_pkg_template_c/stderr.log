@@ -1,0 +1,1 @@
+[0mWARNING: Target "test_node" requests linking to directory "/home/zisheng/ros2_ws/src/ros2_pkg_template_c/include".  Targets may link only to libraries.  CMake is dropping the item.[0m
