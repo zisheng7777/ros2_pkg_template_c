@@ -18,5 +18,14 @@ ament_target_dependencies(minimal_publisher
   std_msgs
 )
 
+target_link_libraries(minimal_subscriber
+    test_lib
+)
+ament_target_dependencies(minimal_subscriber
+  rclcpp
+  std_msgs
+)
+
+
 # used to link ROS libraries and executable file
 
